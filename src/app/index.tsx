@@ -1,10 +1,11 @@
 import { Link } from "expo-router";
-import { Text, TextInput, TouchableOpacity, View } from "react-native";
+import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import styles from "./styles";
 
 export default function LoginScreen() {
   return (
     <View style={styles.container}>
+
       <View style={styles.inputContainer}>
         <Text style={styles.label}>E-mail:</Text>
         <TextInput style={styles.input} placeholder="Digite seu email:" />
