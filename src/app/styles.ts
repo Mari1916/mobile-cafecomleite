@@ -8,6 +8,9 @@ const styles = StyleSheet.create({
         backgroundColor: "#f5f5f5",
         padding: 20,
     },
+    logo: {
+        width: 100,
+    },
     inputContainer: {
         width: "100%",
         marginBottom: 20,

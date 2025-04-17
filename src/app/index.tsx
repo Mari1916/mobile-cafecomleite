@@ -5,7 +5,7 @@ import styles from "./styles";
 export default function LoginScreen() {
   return (
     <View style={styles.container}>
-
+      <Image source={require('@/assets/images/logo2.png')} style={styles.logo}/>
       <View style={styles.inputContainer}>
         <Text style={styles.label}>E-mail:</Text>
         <TextInput style={styles.input} placeholder="Digite seu email:" />
